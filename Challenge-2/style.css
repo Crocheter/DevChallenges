@@ -1,0 +1,58 @@
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.main {
+
+}
+
+.text h1 {
+    font-family: 'PT Serif', serif;
+    font-size: 25px;
+    font-weight: 700;
+    margin-right: 250px;
+    margin-bottom: 50px;
+    width: 245px;
+}
+
+.text h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    width: 280px;
+}
+.text p {
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    width: 350px;
+}
+
+.top {
+    margin-bottom: 200px;
+}
+
+.middle {
+    margin-top: 100px;
+}
+
+.row img {
+    width: 30%;
+}
+
+.col {
+    margin-right: -454px;
+}
+
+.side-text {
+    transform: rotate(90deg);
+    margin-left: -300px;
+    margin-top: -190px;
+}

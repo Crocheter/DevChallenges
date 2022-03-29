@@ -1,0 +1,38 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(218, 44%, 83%);
+}
+
+.main {
+    border: 1px solid white;
+    width: 300px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 50px;
+    box-shadow: 0px 0px 23.0236px 1.58783px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+}
+
+.text h1 {
+    font-size: 20px;
+    font-weight: 700;
+    color: hsl(218, 46%, 12%);
+}
+
+.text p {
+    font-weight: 400;
+    color: hsl(220, 2%, 29%);
+}
+
+.img-fluid {
+    border-radius: 20px;
+    padding: 10px;
+}

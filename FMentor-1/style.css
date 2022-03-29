@@ -1,0 +1,84 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+.main {
+    background-color: hsl(216, 19%, 18%);
+    width: 350px;
+    height: 330px;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 170px;
+
+}
+
+.text{
+    margin-top: 20px;
+}
+
+.text h1 {
+    font-weight: 700;
+    font-size: 23px;
+}
+
+.text p {
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.circle {
+    border-radius: 50%;
+    background-color: hsl(240, 7%, 27%);
+    border-color: hsl(240, 12%, 20%);
+    color: hsl(204, 4%, 56%);
+    box-shadow: none;
+    text-decoration: none;
+    width: 35px;
+    justify-items: center;
+    margin: 10px 10px;
+}
+
+.circle:active {
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+
+.enter{
+    background-color: hsl(25, 97%, 53%);
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: none;
+    border: 1px solid hsl(25, 97%, 53%);
+    margin-top: 20px;
+    height: 40px;
+}
+
+.enter a {
+    font-weight: 400;
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+}
+
+.enter:active{
+    background-color: white;
+}
+
+.enter a:active {
+    color: hsl(25, 97%, 53%);
+
+}
+
+.selection {
+    margin-top: 20px;
+    width: 200px;
+    height: 25px;
+    border-radius: 10px;
+    background-color: hsl(240, 7%, 27%);
+    color: hsl(25, 88%, 60%);
+    box-shadow: none;
+    font-size: 11px;
+    border-color: hsl(240, 7%, 27%);
+}

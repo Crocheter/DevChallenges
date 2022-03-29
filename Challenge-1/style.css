@@ -1,0 +1,46 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.main {
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+img {
+    width: 573px;
+}
+
+.text {
+    width: 270px;
+}
+
+.text h2 {
+    font-family: 'Space Mono', monospace;;
+    font-weight: 700;
+}
+
+.text p {
+    font-family: 'Space Mono', monospace;
+    font-weight: lighter;
+    font-style: normal;
+    letter-spacing: 1px;
+}
+
+.btn {
+    background-color: #333333;
+    color: #FFFFFF;
+}
+
+.copy {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 5px;
+}
