@@ -9,20 +9,20 @@
 <link rel="stylesheet" href="style.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@700;800&family=Montserrat:wght@700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <h6>404 NOT FOUND</h3>
+    <header class="container">
+        <h6>404 NOT FOUND</h6>
     </header>
 
     <div class="container">
-        <div class="main d-sm-flex p-5">
-            <img src="./Scarecrow.png" alt="" class="rounded float-start img-fluid w-50">
-            <div class="text ms-5">
-                <h2>I have bad news for you.</h2>
+        <div class="row main p-sm-5">
+            <div class="scarecrowImg col-lg-6">
+            <img src="./Scarecrow.png" alt="" class="img-fluid w-100">
+            </div>
+            <div class="text col-lg-6">
+                <h2 class=" ">I have bad news for you.</h2>
                 <p>The page you are looking for might be removed or is temporarily unavailable.</p>
                 <button class="btn">BACK TO HOMEPAGE</button>
             </div>
@@ -30,9 +30,9 @@
         
     </div>
     <footer class="">
-        <div class="position-absolute bottom-0 start-50 translate-middle-x">
+        <p class="copy text-center">
             created by crocheter - devChallenges.io
-        </div>
+        </p>
     </footer>
 
     

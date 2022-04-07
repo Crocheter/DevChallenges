@@ -52,7 +52,5 @@ body {
 }
 
 .side-text {
-    transform: rotate(90deg);
-    margin-left: -300px;
-    margin-top: -190px;
+    writing-mode: vertical-rl;
 }
